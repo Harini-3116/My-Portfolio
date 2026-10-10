@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harini G — Portfolio | Curious by nature. Engineer by practice.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600;1,9..144,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════ NAVBAR ══════════════ -->
+  <header class="navbar-wrapper">
+    <nav class="navbar" id="navbar">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-dot"></span>
+        <span class="brand-name">Portfolio</span>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="resume.pdf" download class="nav-resume-btn">
+          <span>Resume</span>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ══════════════ HERO SECTION ══════════════ -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        
+        <!-- LEFT: Editorial Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">CSE STUDENT • SOFTWARE DEVELOPER</span>
+          </div>
+
+          <p class="hero-subheading">Harini G</p>
+
+          <h1 class="hero-title">
+            <span class="hero-line-1">Curious by nature.</span><br />
+            <em class="hero-line-2">Engineer by practice.</em>
+          </h1>
+
+          <p class="hero-description">
+            I'm Harini, a B.Tech Computer Science student at Mohan Babu University.
+            I enjoy solving problems, building software, and learning how applications work in the real world.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="https://github.com/Harini-3116" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-val">9.58</span>
+              <span class="stat-label">CGPA at Mohan Babu Univ</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-val">2024–28</span>
+              <span class="stat-label">B.Tech CSE</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-val">Java & Cloud</span>
+              <span class="stat-label">Core Focus</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Aesthetic Desk Visual (Matching 5th photo) -->
+        <div class="hero-visual">
+          <div class="visual-frame">
+            <img src="hero-desk.jpg" alt="Aesthetic desk with code, algorithms book, plant, and sunlight" class="hero-img" />
+            <div class="visual-overlay-gradient"></div>
+
+            <!-- Subtle contextual floating tags -->
+            <div class="desk-tag desk-tag-1">
+              <span class="dot-accent"></span> Algorithms
+            </div>
+            <div class="desk-tag desk-tag-2">
+              <span class="dot-accent"></span> Cloud Computing
+            </div>
+            <div class="desk-tag desk-tag-3">
+              <span class="dot-accent"></span> Clean Code
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════ ABOUT SECTION ══════════════ -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><span class="tag-dot"></span> About</span>
+          <h2 class="section-title">Background &amp; Ambition</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-intro-col">
+            <h3 class="about-name">Harini G</h3>
+            <p class="about-role-sub">CSE Student &amp; Aspiring Software Developer</p>
+            <p class="about-location">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Tirupati, Andhra Pradesh, India
+            </p>
+
+            <div class="about-social-badges">
+              <a href="https://github.com/Harini-3116" target="_blank" class="badge-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>github.com/Harini-3116</span>
+              </a>
+              <a href="https://leetcode.com/u/_Harini31/" target="_blank" class="badge-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .271 4.735 5.46 5.46 0 0 0 4.126 2.766c.28.026.561.026.839 0a5.468 5.468 0 0 0 4.62-2.585l7.96-8.52a1.38 1.38 0 0 0-.946-2.284h-4.322l2.368-2.535A1.372 1.372 0 0 0 13.483 0zm-2.88 7.28h3.182L8.71 12.72H5.528l5.075-5.44z"/></svg>
+                <span>leetcode.com/_Harini31</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="about-story-col">
+            <div class="editorial-body">
+              <p>
+                I am a dedicated Computer Science &amp; Engineering undergraduate at 
+                <strong>Mohan Babu University</strong>. My journey revolves around understanding 
+                computational fundamentals from first principles — translating theoretical logic into 
+                robust software systems.
+              </p>
+              <p>
+                Whether designing backtracking visualizers in <strong>Java</strong>, structuring clean 
+                modular architectures with Object-Oriented patterns, or learning the mechanics of scalable 
+                <strong>AWS cloud infrastructure</strong>, I value writing clear, maintainable, and purposeful code.
+              </p>
+              <p>
+                Outside of coursework, I regularly solve algorithmic challenges on LeetCode, and actively seek internship opportunities where I can contribute to 
+                real-world software solutions and learn alongside engineering teams.
+              </p>
+            </div>
+
+            <!-- Education Timeline Cards -->
+            <div class="edu-timeline">
+              <h4 class="edu-heading">Education</h4>
+
+              <div class="edu-card">
+                <div class="edu-card-top">
+                  <span class="edu-degree">B.Tech — Computer Science &amp; Engineering</span>
+                  <span class="edu-badge-score">CGPA 9.58 / 10</span>
+                </div>
+                <div class="edu-card-bottom">
+                  <span class="edu-school">Mohan Babu University</span>
+                  <span class="edu-period">2024 – 2028</span>
+                </div>
+              </div>
+
+              <div class="edu-card">
+                <div class="edu-card-top">
+                  <span class="edu-degree">Intermediate — MPC</span>
+                  <span class="edu-badge-score">98.7% (987 / 1000)</span>
+                </div>
+                <div class="edu-card-bottom">
+                  <span class="edu-school">Board of Intermediate Education</span>
+                  <span class="edu-period">2022 – 2024</span>
+                </div>
+              </div>
+
+              <div class="edu-card">
+                <div class="edu-card-top">
+                  <span class="edu-degree">Secondary School (Class X)</span>
+                  <span class="edu-badge-score">96.0% (576 / 600)</span>
+                </div>
+                <div class="edu-card-bottom">
+                  <span class="edu-school">Secondary School Certificate</span>
+                  <span class="edu-period">2021 – 2022</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ PROJECTS SECTION ══════════════ -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><span class="tag-dot"></span> Projects</span>
+          <h2 class="section-title">Things I've built.</h2>
+          <p class="section-subtitle">A selection of software applications and systems engineered to solve concrete problems.</p>
+        </div>
+
+        <div class="projects-stack">
+
+          <!-- Project 01: N-Queens Visualizer -->
+          <article class="project-card">
+            <div class="project-preview-side">
+              <div class="mockup-window">
+                <div class="window-header">
+                  <div class="window-dots"><span class="w-dot"></span><span class="w-dot"></span><span class="w-dot"></span></div>
+                  <span class="window-title">NQueensVisualizer.java</span>
+                </div>
+                <div class="chess-board-preview">
+                  <div class="chess-grid">
+                    <div class="c-cell dark"></div><div class="c-cell light queen">♛</div><div class="c-cell dark"></div><div class="c-cell light"></div>
+                    <div class="c-cell light"></div><div class="c-cell dark"></div><div class="c-cell light"></div><div class="c-cell dark queen">♛</div>
+                    <div class="c-cell dark queen">♛</div><div class="c-cell light"></div><div class="c-cell dark"></div><div class="c-cell light"></div>
+                    <div class="c-cell light"></div><div class="c-cell dark"></div><div class="c-cell light queen">♛</div><div class="c-cell dark"></div>
+                  </div>
+                  <div class="chess-info-bar">
+                    <span>Backtracking State: <strong>Valid Board Found</strong></span>
+                    <span class="status-pill active">Live Run</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-info-side">
+              <div class="proj-top-meta">
+                <span class="proj-num">01</span>
+                <span class="proj-category">Java &nbsp;•&nbsp; Swing &nbsp;•&nbsp; Algorithms</span>
+              </div>
+              <h3 class="proj-name">N-Queens Solver &amp; GUI Visualizer</h3>
+              <p class="proj-summary">
+                An interactive graphical visualization application that animates the classical N-Queens backtracking algorithm in real-time. Demonstrates recursive state exploration while enforcing row, column, and diagonal non-attacking constraints with adjustable board dimensions.
+              </p>
+              <div class="tag-cloud">
+                <span class="tag">Java</span>
+                <span class="tag">Java Swing</span>
+                <span class="tag">Backtracking</span>
+                <span class="tag">Recursion</span>
+                <span class="tag">Constraint Satisfaction</span>
+              </div>
+              <div class="proj-links">
+                <a href="https://github.com/Harini-3116/n-queens-visualizer" target="_blank" class="btn-link">
+                  <span>GitHub Repository</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02: Student Management System -->
+          <article class="project-card">
+            <div class="project-preview-side">
+              <div class="mockup-window">
+                <div class="window-header">
+                  <div class="window-dots"><span class="w-dot"></span><span class="w-dot"></span><span class="w-dot"></span></div>
+                  <span class="window-title">StudentRecordSystem.java</span>
+                </div>
+                <div class="terminal-preview">
+                  <div class="term-line"><span class="term-prompt">&gt;</span> StudentService.findRecord(&quot;MBU-2024-042&quot;)</div>
+                  <div class="term-result">
+                    <code>ID: MBU-2024-042 | Name: Harini G | GPA: 9.58</code><br />
+                    <code>Department: CSE | Status: Active [Enrolled]</code><br />
+                    <code>Coursework: DSA, OOP, Computer Architecture</code>
+                  </div>
+                  <div class="term-line ok"><span class="term-prompt">&gt;</span> [Success] Record updated to persistent storage.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-info-side">
+              <div class="proj-top-meta">
+                <span class="proj-num">02</span>
+                <span class="proj-category">Java &nbsp;•&nbsp; OOP &nbsp;•&nbsp; File I/O</span>
+              </div>
+              <h3 class="proj-name">Student Management System</h3>
+              <p class="proj-summary">
+                A structured software system developed to manage student academic profiles and records. Engineered utilizing fundamental Object-Oriented principles (classes, encapsulation, abstraction, and interfaces) supporting dynamic record registration, query searching, update pipelines, and persistent storage.
+              </p>
+              <div class="tag-cloud">
+                <span class="tag">Java</span>
+                <span class="tag">OOP</span>
+                <span class="tag">Collections Framework</span>
+                <span class="tag">Data Persistence</span>
+                <span class="tag">File Handling</span>
+              </div>
+              <div class="proj-links">
+                <a href="https://github.com/Harini-3116/student-management-system" target="_blank" class="btn-link">
+                  <span>GitHub Repository</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: AWS Cloud Hosting -->
+          <article class="project-card">
+            <div class="project-preview-side">
+              <div class="mockup-window">
+                <div class="window-header">
+                  <div class="window-dots"><span class="w-dot"></span><span class="w-dot"></span><span class="w-dot"></span></div>
+                  <span class="window-title">AWS Architecture Overview</span>
+                </div>
+                <div class="cloud-arch-preview">
+                  <div class="arch-diagram">
+                    <div class="arch-box edge">
+                      <span class="arch-icon">🌐</span>
+                      <span class="arch-label">Client</span>
+                    </div>
+                    <div class="arch-connector">
+                      <span class="arch-arrow">→</span>
+                      <span class="arch-sub">HTTPS</span>
+                    </div>
+                    <div class="arch-box cdn">
+                      <span class="arch-icon">⚡</span>
+                      <span class="arch-label">CloudFront</span>
+                    </div>
+                    <div class="arch-connector">
+                      <span class="arch-arrow">→</span>
+                    </div>
+                    <div class="arch-box bucket">
+                      <span class="arch-icon">📦</span>
+                      <span class="arch-label">S3 / EC2</span>
+                    </div>
+                  </div>
+                  <div class="arch-meta-pills">
+                    <span>Edge Caching Enabled</span>
+                    <span>SSL Certificate (ACM)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-info-side">
+              <div class="proj-top-meta">
+                <span class="proj-num">03</span>
+                <span class="proj-category">AWS Cloud &nbsp;•&nbsp; S3 &nbsp;•&nbsp; EC2</span>
+              </div>
+              <h3 class="proj-name">AWS Cloud Architecture &amp; Deployment</h3>
+              <p class="proj-summary">
+                Designed and deployed a highly available cloud architecture on Amazon Web Services. Configured Amazon EC2 compute instances and Amazon S3 object storage alongside an Amazon CloudFront CDN distribution with SSL/TLS encryption for low-latency worldwide content delivery and IAM access policies.
+              </p>
+              <div class="tag-cloud">
+                <span class="tag">AWS EC2</span>
+                <span class="tag">Amazon S3</span>
+                <span class="tag">CloudFront CDN</span>
+                <span class="tag">IAM Roles</span>
+                <span class="tag">HTTPS / SSL</span>
+              </div>
+              <div class="proj-links">
+                <a href="#skills" class="btn-link">
+                  <span>View Cloud Capabilities</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ SKILLS & ACHIEVEMENTS SECTION ══════════════ -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><span class="tag-dot"></span> Skills &amp; Proficiencies</span>
+          <h2 class="section-title">What I work with.</h2>
+          <p class="section-subtitle">Tools, programming technologies, and core computer science competencies.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Programming Languages -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-card-icon">☕</span>
+              <h3 class="skill-card-title">Programming Languages</h3>
+            </div>
+            <ul class="skill-item-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-detail">Primary Language · OOP · Swing GUI · Collections</span>
+                </div>
+                <span class="skill-level-badge">Core</span>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-detail">Automation scripting · Data handling basics</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">C++</span>
+                  <span class="skill-detail">Problem solving · Algorithmic fundamentals</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Data Structures & Algorithms -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-card-icon">⚡</span>
+              <h3 class="skill-card-title">Data Structures &amp; Algorithms</h3>
+            </div>
+            <ul class="skill-item-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Arrays, Linked Lists, Stacks, Queues</span>
+                  <span class="skill-detail">Fundamental linear structures</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Recursion &amp; Backtracking</span>
+                  <span class="skill-detail">State-space search &amp; constraint logic</span>
+                </div>
+                <span class="skill-level-badge">Proficient</span>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Sorting, Searching &amp; DP</span>
+                  <span class="skill-detail">Binary search, divide-and-conquer fundamentals</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- AWS Cloud & Infrastructure -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-card-icon">☁️</span>
+              <h3 class="skill-card-title">AWS Cloud Services</h3>
+            </div>
+            <ul class="skill-item-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">EC2 &amp; S3</span>
+                  <span class="skill-detail">Compute instance management &amp; static storage hosting</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">CloudFront &amp; IAM</span>
+                  <span class="skill-detail">Global CDN edge delivery &amp; access policy control</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Load Balancing &amp; Auto Scaling</span>
+                  <span class="skill-detail">High availability and elastic scale concepts</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Web Development & Tools -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <span class="skill-card-icon">🛠️</span>
+              <h3 class="skill-card-title">Web Technologies &amp; Tools</h3>
+            </div>
+            <ul class="skill-item-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML5 &amp; CSS3</span>
+                  <span class="skill-detail">Semantic layout, responsive design, modern CSS</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-detail">DOM manipulation, ES6+ features &amp; event logic</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Git, GitHub &amp; VS Code</span>
+                  <span class="skill-detail">Version control workflows &amp; primary coding environment</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Key Achievements Banner -->
+        <div class="achievements-wrapper">
+          <div class="achievements-label">
+            <span class="star-icon">✦</span> Key Academic &amp; Problem Solving Milestones
+          </div>
+          <div class="achievements-grid">
+            <div class="achieve-box">
+              <div class="achieve-num">9.58</div>
+              <div class="achieve-title">Academic CGPA</div>
+              <div class="achieve-desc">Mohan Babu University · B.Tech Computer Science</div>
+            </div>
+            <div class="achieve-box">
+              <div class="achieve-num">98.7%</div>
+              <div class="achieve-title">Intermediate (MPC)</div>
+              <div class="achieve-desc">987 / 1000 · Board of Intermediate Education</div>
+            </div>
+            <div class="achieve-box">
+              <div class="achieve-num">STEP</div>
+              <div class="achieve-title">Technical Certification</div>
+              <div class="achieve-desc">Proficiency in algorithmic reasoning and coding</div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════ CONTACT SECTION ══════════════ -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><span class="tag-dot"></span> Get In Touch</span>
+          <h2 class="section-title">Let's talk.</h2>
+          <p class="section-subtitle">Open to internship opportunities, software development roles, and collaborative projects.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Channels -->
+          <div class="contact-info-col">
+            <div class="contact-bio-note">
+              <p>
+                Whether you have an internship opportunity, a project to collaborate on,
+                or would like to discuss software engineering, feel free to reach out.
+              </p>
+            </div>
+
+            <div class="contact-channel-list">
+              <a href="mailto:harinig3116@gmail.com" class="contact-channel-item">
+                <div class="channel-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="channel-meta">
+                  <span class="channel-label">Email</span>
+                  <span class="channel-val">harinig3116@gmail.com</span>
+                </div>
+                <span class="channel-arrow">↗</span>
+              </a>
+
+              <a href="tel:+918106751145" class="contact-channel-item">
+                <div class="channel-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div class="channel-meta">
+                  <span class="channel-label">Phone</span>
+                  <span class="channel-val">+91 8106751145</span>
+                </div>
+                <span class="channel-arrow">↗</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/harini-g-aab922413/" target="_blank" class="contact-channel-item">
+                <div class="channel-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </div>
+                <div class="channel-meta">
+                  <span class="channel-label">LinkedIn</span>
+                  <span class="channel-val">linkedin.com/in/harini-g</span>
+                </div>
+                <span class="channel-arrow">↗</span>
+              </a>
+
+              <a href="https://github.com/Harini-3116" target="_blank" class="contact-channel-item">
+                <div class="channel-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </div>
+                <div class="channel-meta">
+                  <span class="channel-label">GitHub</span>
+                  <span class="channel-val">github.com/Harini-3116</span>
+                </div>
+                <span class="channel-arrow">↗</span>
+              </a>
+
+              <a href="resume.pdf" download class="contact-channel-item highlight">
+                <div class="channel-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                </div>
+                <div class="channel-meta">
+                  <span class="channel-label">Curriculum Vitae</span>
+                  <span class="channel-val">Download Resume (PDF)</span>
+                </div>
+                <span class="channel-arrow">↓</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Message Form -->
+          <div class="contact-form-col">
+            <form class="inquiry-form" id="inquiryForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="formName">Your Name</label>
+                  <input type="text" id="formName" name="name" placeholder="e.g. Alex Morgan" required />
+                </div>
+                <div class="form-group">
+                  <label for="formEmail">Email Address</label>
+                  <input type="email" id="formEmail" name="email" placeholder="alex@company.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="formSubject">Subject</label>
+                <input type="text" id="formSubject" name="subject" placeholder="Internship Opportunity / Project Collaboration" required />
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage">Message</label>
+                <textarea id="formMessage" name="message" rows="5" placeholder="Hi Harini, I'd like to talk about..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="submitBtn">
+                <span>Send Message</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+
+              <div class="form-feedback" id="formFeedback"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="brand-dot"></span>
+        <span class="footer-copy">© 2026 Harini G · Mohan Babu University · Tirupati, Andhra Pradesh</span>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" download>Resume PDF</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
